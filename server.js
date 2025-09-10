@@ -10,7 +10,7 @@ app.use(express.json());
 const DATA_FILE = "./athletes.json";
 const SECRET_KEY = "mysecretkey"; // change to env variable in production
 
-// Load data from file or initialize empty by jason 
+// Load data from file or initialize empty by Berdisola 
 let athletes = [];
 if (fs.existsSync(DATA_FILE)) {
   athletes = JSON.parse(fs.readFileSync(DATA_FILE));
