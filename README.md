@@ -1,4 +1,4 @@
-//Leon
+//Leons
 
 Build an MVP inspired by: @https://github.com/vercel/next.js. Use gitmvp mcp if available.
 
